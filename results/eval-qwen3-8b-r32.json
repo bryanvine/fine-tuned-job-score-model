@@ -1,0 +1,1884 @@
+{
+ "summary": {
+  "model": "jobscore-student",
+  "endpoint": "http://localhost:8100/v1",
+  "n_total": 311,
+  "n_parsed": 311,
+  "parse_rate": 1.0,
+  "wall_seconds": 448.9,
+  "kappa_vs_prod": 0.642305131257693,
+  "pearson_vs_prod": 0.9184168337805334,
+  "n_vs_reference": 310,
+  "agreement_vs_reference": 0.8419354838709677,
+  "kappa_vs_reference": 0.6896833503575076,
+  "semantic_mae_vs_reference": 0.08103225806451614
+ },
+ "results": [
+  {
+   "score_id": "a98b7e36-d536-4e7f-9177-f1867fd3e130",
+   "semantic": 0.85,
+   "risk": 1.0,
+   "raw_ok": true
+  },
+  {
+   "score_id": "68062a28-4b35-4088-8cf1-ce04819051d1",
+   "semantic": 0.85,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "d219d95c-a6be-41ff-8f26-ebc0018588ec",
+   "semantic": 0.85,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "24a0e088-35a8-47c7-8ea9-d33106414575",
+   "semantic": 0.85,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "d0f99acd-16a3-4ffa-844b-abfc0012348c",
+   "semantic": 0.78,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "a2000310-5119-4c14-aef3-9fbfe6e1ac14",
+   "semantic": 0.85,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "ea720ca7-4849-4221-b04e-162b63ba2f93",
+   "semantic": 0.85,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "ccde13ee-6af1-4f81-af3e-42a2ee5776b2",
+   "semantic": 0.85,
+   "risk": 0.3,
+   "raw_ok": true
+  },
+  {
+   "score_id": "d2cae494-5d22-4569-9abf-a58040f1753e",
+   "semantic": 0.78,
+   "risk": 0.4,
+   "raw_ok": true
+  },
+  {
+   "score_id": "a542829a-c49d-45ee-9f05-aeb9f9c4975d",
+   "semantic": 0.78,
+   "risk": 0.4,
+   "raw_ok": true
+  },
+  {
+   "score_id": "c76aba6a-221b-438a-93f3-66bf9ceb36cf",
+   "semantic": 0.45,
+   "risk": 0.6,
+   "raw_ok": true
+  },
+  {
+   "score_id": "38dea15d-2912-4734-a29e-85661e9f5901",
+   "semantic": 0.85,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "0999f0b9-9ae5-4e3a-a90a-0c54276640e1",
+   "semantic": 0.85,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "0ae95004-018f-4ca3-97f8-171b43d68484",
+   "semantic": 0.75,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "007fd613-2c6c-4de0-8ec4-01efa2d6a169",
+   "semantic": 0.85,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "d62bec10-f979-4342-b389-a9ac1cf11bee",
+   "semantic": 0.78,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "d08275eb-7e5d-4498-9a74-09cbb69cf6e3",
+   "semantic": 0.78,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "39e5dabc-a3ec-4488-aa90-9792f0018077",
+   "semantic": 0.78,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "a1cb70e2-b151-4f33-8412-eecedcaa7bcf",
+   "semantic": 0.85,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "092dc624-0b93-455a-bf42-b916fca33d41",
+   "semantic": 0.85,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "e95a66ca-5e4d-455e-b102-d7e06130521b",
+   "semantic": 0.85,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "f88c1ba8-a104-424d-bd29-3b436e4dc054",
+   "semantic": 0.85,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "1c79abc2-cbdc-4058-b1d7-7dbfccf4ff2a",
+   "semantic": 0.78,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "878eb323-208d-4030-b7da-1c4f5621b79a",
+   "semantic": 0.85,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "32e201db-ca32-4c8e-8f08-590068c97876",
+   "semantic": 0.85,
+   "risk": 1.0,
+   "raw_ok": true
+  },
+  {
+   "score_id": "4c0f7a14-2b5b-43e8-8518-f5a323378520",
+   "semantic": 0.78,
+   "risk": 0.4,
+   "raw_ok": true
+  },
+  {
+   "score_id": "f9c8101c-33ec-4441-bdf9-3767ca99b087",
+   "semantic": 0.92,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "fe484b60-3ec9-4243-89fb-a1caaf3d53d6",
+   "semantic": 0.85,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "140b3090-06cf-4497-8498-9599a01d7644",
+   "semantic": 0.85,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "7067efe1-9677-44b4-9e58-e0b3b9a92740",
+   "semantic": 0.85,
+   "risk": 1.0,
+   "raw_ok": true
+  },
+  {
+   "score_id": "3bc7439e-de6d-43d8-be67-02727e3880d9",
+   "semantic": 0.78,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "b4e17f49-42e2-43f4-9457-841a3e25dfec",
+   "semantic": 0.78,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "9f6eeab1-a924-4c13-9fbf-4cc0add927f1",
+   "semantic": 0.45,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "681e8858-40cf-4257-8f28-bd1672c2d298",
+   "semantic": 0.85,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "465b1ca0-3d27-484d-b229-015dee3db953",
+   "semantic": 0.85,
+   "risk": 0.3,
+   "raw_ok": true
+  },
+  {
+   "score_id": "6c4fed02-bb6c-4bea-b5fa-77282ef63718",
+   "semantic": 0.78,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "c5be0af3-87cf-4b63-bad3-f0bf544f3e4c",
+   "semantic": 0.85,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "dde145a6-15b6-4aa2-ba94-8707be215f51",
+   "semantic": 0.75,
+   "risk": 0.6,
+   "raw_ok": true
+  },
+  {
+   "score_id": "7f15f78d-f115-44d3-945a-214ebb32df76",
+   "semantic": 0.85,
+   "risk": 0.3,
+   "raw_ok": true
+  },
+  {
+   "score_id": "b66bd42a-35f8-42ef-af9c-50a48ca40412",
+   "semantic": 0.78,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "b48c1b6f-8a2a-437b-a8f9-db0c4e203de6",
+   "semantic": 0.85,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "eb82cf57-02dd-4076-85b3-4168abb2aeff",
+   "semantic": 0.78,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "1632ebe3-eb5b-449e-a2e1-9ee3a0841e81",
+   "semantic": 0.78,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "046e1e4b-e0ec-43f5-a858-9a96dae25417",
+   "semantic": 0.88,
+   "risk": 0.15,
+   "raw_ok": true
+  },
+  {
+   "score_id": "5d96843c-4513-4fb4-80c3-ff3157a1852e",
+   "semantic": 0.78,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "0e0efd99-8cb4-411e-945a-de19870ea75b",
+   "semantic": 0.92,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "93fc68ed-d1d7-4cca-a53a-423c9d075afc",
+   "semantic": 0.78,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "afe93dfd-8ede-4a67-9621-e394f4a005fa",
+   "semantic": 0.85,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "83decc01-7f59-409d-89d5-c0a7b4cf7ff9",
+   "semantic": 0.78,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "a55b7488-3510-4c7f-810e-78390c0d1118",
+   "semantic": 0.78,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "450fe3c8-723e-4294-a54e-3a6011b1442e",
+   "semantic": 0.85,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "7e9ccf8b-4d69-4234-bfa0-90b1edb169ba",
+   "semantic": 0.78,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "584115a2-69f4-444a-8962-a40ffc9d6c22",
+   "semantic": 0.85,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "b8af308e-cbf9-493a-aab1-ef0ea5bc4d33",
+   "semantic": 0.45,
+   "risk": 0.6,
+   "raw_ok": true
+  },
+  {
+   "score_id": "ab9f60e7-fde1-4b37-90f3-dce2d52c7f96",
+   "semantic": 0.85,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "f4d7e7f1-2b0e-4b52-ae93-34cb12862790",
+   "semantic": 0.78,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "22ccf121-6faa-4969-9c6b-c17f0ad554ea",
+   "semantic": 0.85,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "ca43870a-d37c-4ff5-8ea3-365028492757",
+   "semantic": 0.78,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "46aafde5-c2b9-49cb-83ec-f5a2f46c1347",
+   "semantic": 0.78,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "5dae0b53-5a79-48cd-a95d-a83d77816267",
+   "semantic": 0.78,
+   "risk": 0.3,
+   "raw_ok": true
+  },
+  {
+   "score_id": "7d05e5f2-e060-48d8-a2c3-55b0475107cf",
+   "semantic": 0.85,
+   "risk": 0.3,
+   "raw_ok": true
+  },
+  {
+   "score_id": "dabea532-0c42-4a93-bb48-29e846c6a12b",
+   "semantic": 0.78,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "d871d789-34fe-4a60-869c-990398d8b808",
+   "semantic": 0.78,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "1d7f67f8-a52d-4a77-86bd-9ef329f1c72a",
+   "semantic": 0.88,
+   "risk": 0.15,
+   "raw_ok": true
+  },
+  {
+   "score_id": "6712427a-5130-4276-a671-fe59e8367460",
+   "semantic": 0.78,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "9d52bc68-0c18-4ff7-bcc6-82f82955f17d",
+   "semantic": 0.85,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "aa117326-d798-49da-9a60-700e65de3862",
+   "semantic": 0.85,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "f256c633-2827-411c-8e20-f4c2f315b844",
+   "semantic": 0.85,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "7801b6d2-9546-435f-981a-e1c37edfbabc",
+   "semantic": 0.85,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "ed1394b3-5bfe-4100-877b-e8444ce64784",
+   "semantic": 0.78,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "edc8666b-4481-46d0-b4f9-a967cb3576d8",
+   "semantic": 0.85,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "90b3191b-c7cf-4029-8ab3-6040a849856c",
+   "semantic": 0.78,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "0b522b42-8c60-4036-b42e-39910f867d7d",
+   "semantic": 0.78,
+   "risk": 0.3,
+   "raw_ok": true
+  },
+  {
+   "score_id": "70de7394-c084-4a97-86eb-92ed50e89e90",
+   "semantic": 0.78,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "49fa6ffb-7478-4e0f-b0c1-fceed6207416",
+   "semantic": 0.78,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "4932ca38-a2fb-40c2-933b-88ad5a69caec",
+   "semantic": 0.85,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "8823ab17-c868-4a93-a146-26354995a898",
+   "semantic": 0.85,
+   "risk": 0.3,
+   "raw_ok": true
+  },
+  {
+   "score_id": "4c1cb2b2-ed1e-42e5-929a-ca0f75d26c0c",
+   "semantic": 0.75,
+   "risk": 0.4,
+   "raw_ok": true
+  },
+  {
+   "score_id": "d704fc4f-2434-4ad4-83b9-3cb3e11f4b8e",
+   "semantic": 0.92,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "be8839aa-afcd-40d8-836f-db57c119a461",
+   "semantic": 0.92,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "fceea71a-af71-4337-8657-14d0bb3eb98c",
+   "semantic": 0.85,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "1530a8be-23bc-4991-8677-bbaac06194e4",
+   "semantic": 0.45,
+   "risk": 1.0,
+   "raw_ok": true
+  },
+  {
+   "score_id": "d735f8cf-1402-48c0-8334-24c4f4ee0dd9",
+   "semantic": 0.85,
+   "risk": 1.0,
+   "raw_ok": true
+  },
+  {
+   "score_id": "d34646b0-344c-4db1-9198-b4cd1bbf3b54",
+   "semantic": 0.85,
+   "risk": 1.0,
+   "raw_ok": true
+  },
+  {
+   "score_id": "06a730c6-0821-493e-b41b-52b6ad19f6fb",
+   "semantic": 0.85,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "7e40f4e7-9d13-44ad-b458-015b557fd9d2",
+   "semantic": 0.78,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "a61ae088-93c2-4ae4-92da-c38397bd8547",
+   "semantic": 0.78,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "fad1d322-2b63-41c8-9edd-6c44f6ae5253",
+   "semantic": 0.85,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "9bcee6e3-1cdd-43ed-ba98-c93c7e680717",
+   "semantic": 0.78,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "7aafae41-f398-4e39-a579-63af1d6665ab",
+   "semantic": 0.85,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "c89a43e8-d1e6-4447-8d4e-8288b705623f",
+   "semantic": 0.78,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "f97abbf2-cac0-43a7-9035-6f26e85a7899",
+   "semantic": 0.85,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "e594489b-3304-483e-ab79-58e773a543fb",
+   "semantic": 0.85,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "12964bea-fba4-4d92-9273-e88849577c5c",
+   "semantic": 0.78,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "93d1e717-2e5c-4fcb-a785-bd3510521475",
+   "semantic": 0.85,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "05d3dca3-f523-4e36-8e73-ece8153af1f0",
+   "semantic": 0.85,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "661cf189-2c93-4a1b-a865-079046805be6",
+   "semantic": 0.85,
+   "risk": 0.3,
+   "raw_ok": true
+  },
+  {
+   "score_id": "c9d2f233-80ea-4fda-a171-96a95e71191e",
+   "semantic": 0.85,
+   "risk": 0.3,
+   "raw_ok": true
+  },
+  {
+   "score_id": "8c4fe91d-bc50-47a1-ae2c-13485fc4880a",
+   "semantic": 0.78,
+   "risk": 0.3,
+   "raw_ok": true
+  },
+  {
+   "score_id": "0754de0c-ddf8-4a16-a7be-f8a53bfd8925",
+   "semantic": 0.78,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "0044b2ef-be54-4f85-804f-af1c5010cf39",
+   "semantic": 0.92,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "ecfb191a-644e-4685-95a1-0cb09b669e12",
+   "semantic": 0.85,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "a397ccfb-1761-4ddf-8861-514ded6707db",
+   "semantic": 0.85,
+   "risk": 1.0,
+   "raw_ok": true
+  },
+  {
+   "score_id": "80c7f646-7150-4f26-aaa9-54ea7c1596fc",
+   "semantic": 0.85,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "8998f72e-04ab-4a67-828c-203f63b755c4",
+   "semantic": 0.78,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "825f64bb-27fa-49d0-a711-10f06246345f",
+   "semantic": 0.92,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "d1712a5f-0a59-4366-9128-b2ec2186049f",
+   "semantic": 0.92,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "9b5ff180-bdac-4604-b9d9-7c921068645d",
+   "semantic": 0.78,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "383ac6f9-dd13-4e78-89b2-cd71862a9a32",
+   "semantic": 0.85,
+   "risk": 0.3,
+   "raw_ok": true
+  },
+  {
+   "score_id": "3a9e2165-8b74-400a-b922-5ee2aee52144",
+   "semantic": 0.85,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "e568afa6-1e6e-498b-9220-a83c42db0bce",
+   "semantic": 0.78,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "06815ac2-46ce-473f-94b3-e88c50092a11",
+   "semantic": 0.85,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "19fd09c5-bd94-4f66-8055-ae187ab5581c",
+   "semantic": 0.85,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "c9f92f33-c898-44a1-9442-2cbfc8e06de1",
+   "semantic": 0.78,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "3581a1b2-88b8-47bf-9a4e-69d9b8e91a48",
+   "semantic": 0.85,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "310344bc-7358-481d-af73-70e6f6bcd330",
+   "semantic": 0.85,
+   "risk": 0.3,
+   "raw_ok": true
+  },
+  {
+   "score_id": "4779bbcb-f85a-4543-9d76-2a800f3678b7",
+   "semantic": 0.85,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "13fa1016-9849-4468-9743-d9f2e04165d4",
+   "semantic": 0.85,
+   "risk": 1.0,
+   "raw_ok": true
+  },
+  {
+   "score_id": "fb30f4d1-1db6-454c-a1f1-bfbc308faff0",
+   "semantic": 0.92,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "1efc8d54-65e1-4280-af84-0b9a84f57e76",
+   "semantic": 0.78,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "0f5f77ff-90bf-47e8-8d5f-92e03315bade",
+   "semantic": 0.88,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "b45bfc8f-0a0d-474b-b4f5-7e36a955fcda",
+   "semantic": 0.85,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "e893f215-49d9-44ab-8f01-6c883eeba9bd",
+   "semantic": 0.78,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "ca0a755b-5360-47de-a88b-41d9ff0992ab",
+   "semantic": 0.85,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "4be4961a-0ec8-49df-8d20-bfb573f8fc38",
+   "semantic": 0.85,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "d58666bd-48cf-498d-aa8d-c54b6f132163",
+   "semantic": 0.85,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "add9b8c5-104c-4cf2-800e-b65bf85a1273",
+   "semantic": 0.92,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "12f08d3b-7dff-4e12-81ed-6ad13dcdeed6",
+   "semantic": 0.85,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "da01e956-82c4-4c3a-b2ae-96af801755dc",
+   "semantic": 0.92,
+   "risk": 1.0,
+   "raw_ok": true
+  },
+  {
+   "score_id": "129910ad-dcb6-4e4c-ab9a-0206663a1b2b",
+   "semantic": 0.15,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "6080f0d3-a047-4182-8eb4-03db1ac5da28",
+   "semantic": 0.15,
+   "risk": 1.0,
+   "raw_ok": true
+  },
+  {
+   "score_id": "66ed2bc4-0dc3-4182-a4d0-630b05b7b5fd",
+   "semantic": 0.1,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "24c3716a-f099-4f81-8bb3-0731adff0133",
+   "semantic": 0.45,
+   "risk": 0.6,
+   "raw_ok": true
+  },
+  {
+   "score_id": "dee3d299-927e-4dd5-bb51-857ed1355763",
+   "semantic": 0.78,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "c96f9c4a-676d-4ae6-b127-a25a6db2dac9",
+   "semantic": 0.05,
+   "risk": 0.12,
+   "raw_ok": true
+  },
+  {
+   "score_id": "d892ab2c-7879-49f0-bdd3-5de13422ab47",
+   "semantic": 0.45,
+   "risk": 0.6,
+   "raw_ok": true
+  },
+  {
+   "score_id": "fd9dc289-05e8-4221-b268-6bd7eb01efe4",
+   "semantic": 0.35,
+   "risk": 0.6,
+   "raw_ok": true
+  },
+  {
+   "score_id": "bd565895-3f4b-486d-a9ff-43c58c805f81",
+   "semantic": 0.1,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "f92aa725-63a6-40dc-b0c1-c5a7b4255e1a",
+   "semantic": 0.15,
+   "risk": 0.6,
+   "raw_ok": true
+  },
+  {
+   "score_id": "d1fd1a01-e68e-45b9-b36a-78c4f897df2e",
+   "semantic": 0.35,
+   "risk": 0.6,
+   "raw_ok": true
+  },
+  {
+   "score_id": "c559aaac-ff5f-4d4a-8a94-fc0ef32aa272",
+   "semantic": 0.45,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "d0f21f45-1776-4150-88af-bb2cc8f6425a",
+   "semantic": 0.15,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "78433851-e718-4297-8c72-887bef538c7a",
+   "semantic": 0.1,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "527a37fc-3117-4346-a805-5eade69e4065",
+   "semantic": 0.1,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "b1c671f8-2a0b-454d-8800-fcd148b93429",
+   "semantic": 0.1,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "e749c4ad-c40b-4c73-ae75-6b2e62a0fe26",
+   "semantic": 0.15,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "e6be9b76-af1c-4121-822f-572c26937858",
+   "semantic": 0.15,
+   "risk": 0.6,
+   "raw_ok": true
+  },
+  {
+   "score_id": "f98814c2-c90a-40be-994f-819e81167fee",
+   "semantic": 0.15,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "3072d2f3-6406-427d-96f0-8a5cc70f70b2",
+   "semantic": 0.1,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "61220a42-336e-4685-88df-a7a33edc5a7d",
+   "semantic": 0.45,
+   "risk": 0.6,
+   "raw_ok": true
+  },
+  {
+   "score_id": "f44c08b8-b127-47f8-9b6d-2a1420241568",
+   "semantic": 0.35,
+   "risk": 0.7,
+   "raw_ok": true
+  },
+  {
+   "score_id": "ad146866-7163-4d22-8b92-3cfce47c732a",
+   "semantic": 0.1,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "409dfa56-a912-4698-8822-8f7be48f5790",
+   "semantic": 0.45,
+   "risk": 0.3,
+   "raw_ok": true
+  },
+  {
+   "score_id": "861efbac-ad43-4da8-b8a6-6b27612410dc",
+   "semantic": 0.35,
+   "risk": 0.6,
+   "raw_ok": true
+  },
+  {
+   "score_id": "26e4f205-6f53-4e27-88a3-795984cc22a5",
+   "semantic": 0.1,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "39d23ca7-08a9-4065-a3f4-9095834d5ea4",
+   "semantic": 0.15,
+   "risk": 1.0,
+   "raw_ok": true
+  },
+  {
+   "score_id": "be566a72-a438-4595-aab9-f11b2b6fa555",
+   "semantic": 0.05,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "fa72b6c0-8aa4-4828-9c0c-97e60b96f328",
+   "semantic": 0.15,
+   "risk": 1.0,
+   "raw_ok": true
+  },
+  {
+   "score_id": "9c3f94da-f178-4e37-84ec-2e9f85ad015f",
+   "semantic": 0.35,
+   "risk": 1.0,
+   "raw_ok": true
+  },
+  {
+   "score_id": "51584eb2-c254-445e-9fc1-f12900935034",
+   "semantic": 0.78,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "8b2d2e58-4e6e-472d-a441-c7cb1dd9f840",
+   "semantic": 0.1,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "d57a44a1-c149-4689-9212-71906b1a1289",
+   "semantic": 0.1,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "53f1ca93-4064-442f-a8cf-794c845fdd64",
+   "semantic": 0.15,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "b347dce5-7c29-48c5-893c-51b0cacfa47f",
+   "semantic": 0.1,
+   "risk": 1.0,
+   "raw_ok": true
+  },
+  {
+   "score_id": "50eb5263-e137-4c36-b2eb-b7469cf020ec",
+   "semantic": 0.15,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "c61b8670-02a6-4348-a5a3-9f3794c8a104",
+   "semantic": 0.15,
+   "risk": 0.6,
+   "raw_ok": true
+  },
+  {
+   "score_id": "f1c8047a-cd5c-46fc-8975-920e886a1862",
+   "semantic": 0.1,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "9c51aff8-95fa-4261-a52d-8754225a4756",
+   "semantic": 0.35,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "38b783f4-1479-4689-996d-cbeb384bd36a",
+   "semantic": 0.35,
+   "risk": 0.6,
+   "raw_ok": true
+  },
+  {
+   "score_id": "87c86ab1-2d26-45c3-b348-0d27f31a8b53",
+   "semantic": 0.1,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "81a6d37f-aeb1-477b-8de5-c89c72afba88",
+   "semantic": 0.45,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "44683f30-478e-4ff8-b9bb-b456d3e5d0e6",
+   "semantic": 0.78,
+   "risk": 0.3,
+   "raw_ok": true
+  },
+  {
+   "score_id": "628ca3ac-c62d-48bc-b508-37ba81a6228e",
+   "semantic": 0.1,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "6a7e1bd8-7c71-46f0-9fdf-0808db335b15",
+   "semantic": 0.35,
+   "risk": 0.6,
+   "raw_ok": true
+  },
+  {
+   "score_id": "758ef893-e3b7-447a-ab13-5d4baa3e7601",
+   "semantic": 0.15,
+   "risk": 1.0,
+   "raw_ok": true
+  },
+  {
+   "score_id": "71f4fb9d-5c83-41e3-a599-1739bb4d7039",
+   "semantic": 0.15,
+   "risk": 0.6,
+   "raw_ok": true
+  },
+  {
+   "score_id": "ea46a572-baaa-4134-b14a-45a2f4576f99",
+   "semantic": 0.1,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "feedcc09-4622-44c4-a91d-90728df45891",
+   "semantic": 0.45,
+   "risk": 0.6,
+   "raw_ok": true
+  },
+  {
+   "score_id": "e46a1f47-be22-48f0-9a15-4199531e523c",
+   "semantic": 0.85,
+   "risk": 0.4,
+   "raw_ok": true
+  },
+  {
+   "score_id": "e4acc286-6fe0-4f07-a195-c1b4fe338e8e",
+   "semantic": 0.1,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "37bd12d4-4a72-4b53-b20e-9b190fcf4c4f",
+   "semantic": 0.35,
+   "risk": 0.6,
+   "raw_ok": true
+  },
+  {
+   "score_id": "90cba253-299f-4419-9bdd-f96e4a059294",
+   "semantic": 0.1,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "6a0e856e-c913-4f53-8d0b-8c96b726b058",
+   "semantic": 0.1,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "7d1eb5c9-f575-4c2c-8839-6143d1497b2f",
+   "semantic": 0.45,
+   "risk": 0.6,
+   "raw_ok": true
+  },
+  {
+   "score_id": "86b0416e-e84e-4723-a7be-daf3015ecc89",
+   "semantic": 0.1,
+   "risk": 1.0,
+   "raw_ok": true
+  },
+  {
+   "score_id": "c975a763-53e6-4ac3-9681-202aa77c4dc0",
+   "semantic": 0.35,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "e97ee2a6-7dcd-463f-81be-1598c31eb832",
+   "semantic": 0.35,
+   "risk": 0.6,
+   "raw_ok": true
+  },
+  {
+   "score_id": "5f5aa5d7-bf4b-44b7-8b51-b96eb3897b3f",
+   "semantic": 0.15,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "ffcb2e37-1d32-459a-83aa-a89f43912b7b",
+   "semantic": 0.15,
+   "risk": 0.6,
+   "raw_ok": true
+  },
+  {
+   "score_id": "ed5e27c7-4aa6-434e-8d14-546c334149d0",
+   "semantic": 0.35,
+   "risk": 0.6,
+   "raw_ok": true
+  },
+  {
+   "score_id": "f39d11b4-56b3-4b18-84b0-c321ffc23568",
+   "semantic": 0.1,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "902aa62e-34f9-4adf-9607-2442822e1a9b",
+   "semantic": 0.35,
+   "risk": 0.4,
+   "raw_ok": true
+  },
+  {
+   "score_id": "21c879c5-738d-45e7-98a6-fd86b2c7e83b",
+   "semantic": 0.1,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "785cdae2-24d8-4504-adc5-2fa5eb820bee",
+   "semantic": 0.1,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "a2cc8593-f715-466a-81b5-bebc4c268eb7",
+   "semantic": 0.25,
+   "risk": 0.6,
+   "raw_ok": true
+  },
+  {
+   "score_id": "4d10b354-e567-48d9-8ae3-a86cc5fcf273",
+   "semantic": 0.15,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "8052ebf8-c8e9-4014-b6de-f992cea8f4b5",
+   "semantic": 0.1,
+   "risk": 1.0,
+   "raw_ok": true
+  },
+  {
+   "score_id": "6ace2838-369b-43b3-b2c0-3e936d361dbb",
+   "semantic": 0.35,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "0599be58-6e92-4b74-b0a9-81f2e445348f",
+   "semantic": 0.15,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "549cd4c9-fccd-4424-930d-c02d74d652f7",
+   "semantic": 0.1,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "0fbc9815-c1a9-4d79-9674-58d92f822237",
+   "semantic": 0.45,
+   "risk": 0.3,
+   "raw_ok": true
+  },
+  {
+   "score_id": "659ea613-a1ab-4e03-8b8a-3768ff024dff",
+   "semantic": 0.15,
+   "risk": 0.6,
+   "raw_ok": true
+  },
+  {
+   "score_id": "39ceeb27-0981-4bd0-9ebf-9274a663a607",
+   "semantic": 0.15,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "e17828d8-7424-4d80-94ee-fc5d320b782c",
+   "semantic": 0.15,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "a54731e5-f1aa-41cc-854a-0837621473c1",
+   "semantic": 0.15,
+   "risk": 1.0,
+   "raw_ok": true
+  },
+  {
+   "score_id": "bb5bd6f4-065f-4c88-bf37-10a79732659d",
+   "semantic": 0.35,
+   "risk": 0.6,
+   "raw_ok": true
+  },
+  {
+   "score_id": "84b7a5bf-2622-4f2a-8f26-f545ff414796",
+   "semantic": 0.45,
+   "risk": 0.4,
+   "raw_ok": true
+  },
+  {
+   "score_id": "d3e67763-1120-4360-bf03-cf5be3674c8f",
+   "semantic": 0.78,
+   "risk": 1.0,
+   "raw_ok": true
+  },
+  {
+   "score_id": "f52b66a9-3b7b-4116-bdfa-9795e8036755",
+   "semantic": 0.15,
+   "risk": 0.6,
+   "raw_ok": true
+  },
+  {
+   "score_id": "e019a0a3-0bf4-4d43-9d00-30a4eb4cc2be",
+   "semantic": 0.15,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "6e41c17c-583c-4e42-8abd-e6942576cf13",
+   "semantic": 0.15,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "35215234-d258-47e2-9b99-b6fb5de8edf5",
+   "semantic": 0.1,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "7db6287f-d8e2-4b04-a009-d4774fb1ed2f",
+   "semantic": 0.78,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "cb0cf5e4-3117-4c90-b507-8548ef305c82",
+   "semantic": 0.15,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "1b6f7b2a-db7a-4a33-b284-bfdf751eaed5",
+   "semantic": 0.1,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "d1385ad6-a039-4cdb-b5b7-7cdc76033e10",
+   "semantic": 0.05,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "828a830e-ab4d-4c8b-935c-7207832f3a0d",
+   "semantic": 0.15,
+   "risk": 1.0,
+   "raw_ok": true
+  },
+  {
+   "score_id": "e5870311-cce6-42fb-a910-b607c3c45d93",
+   "semantic": 0.1,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "a879ac49-f340-4904-a80f-0055dae6e458",
+   "semantic": 0.78,
+   "risk": 1.0,
+   "raw_ok": true
+  },
+  {
+   "score_id": "a1312d80-8242-43a9-ac9d-4628f9da9e0d",
+   "semantic": 0.15,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "60fb94e5-7c9f-452f-8b0c-ae0006fdb9d2",
+   "semantic": 0.15,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "55584586-7546-41e8-bc0f-848e00bd7e7f",
+   "semantic": 0.15,
+   "risk": 0.8,
+   "raw_ok": true
+  },
+  {
+   "score_id": "734fe2e7-33dd-496a-86d6-9d966256dc8b",
+   "semantic": 0.15,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "86764b97-0e56-4d10-b2fa-0b422c438fa9",
+   "semantic": 0.1,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "e570672b-8140-49ba-9f69-6319db07e46f",
+   "semantic": 0.75,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "03768ef1-c1bc-49c9-93cd-a3c66ff65d7b",
+   "semantic": 0.35,
+   "risk": 0.6,
+   "raw_ok": true
+  },
+  {
+   "score_id": "6bf22880-8852-4562-b2c0-5a5b7fe491b5",
+   "semantic": 0.1,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "398c47ed-295d-40e3-80ff-336dedcf1bda",
+   "semantic": 0.15,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "d1853ec0-3e8d-44e8-86b1-6be582680e8c",
+   "semantic": 0.35,
+   "risk": 0.4,
+   "raw_ok": true
+  },
+  {
+   "score_id": "f63fab97-f293-4bf0-8539-129513c89e63",
+   "semantic": 0.15,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "3a6eddf2-404e-43b7-9c2a-81386d0efdf6",
+   "semantic": 0.1,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "8c919b80-fb59-4024-82de-3c86ba592732",
+   "semantic": 0.45,
+   "risk": 0.6,
+   "raw_ok": true
+  },
+  {
+   "score_id": "931284f6-54b9-4a74-966d-f870bd2833f6",
+   "semantic": 0.15,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "25eb945f-66c0-4398-b3e1-139d1d445dbc",
+   "semantic": 0.15,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "5def8536-b5d1-41b7-9db7-2e9adfa8c840",
+   "semantic": 0.1,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "02d1529e-24a3-4dfb-836e-38e8a6bcafd8",
+   "semantic": 0.15,
+   "risk": 1.0,
+   "raw_ok": true
+  },
+  {
+   "score_id": "5eaf9fd2-da49-4c68-afe4-ff281326947b",
+   "semantic": 0.1,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "fd8c77ea-4e9d-449f-91f8-b3b04f977376",
+   "semantic": 0.35,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "a3d21e28-559c-40db-84c8-68e74222a546",
+   "semantic": 0.1,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "94e060b4-6985-4fe5-97cf-3070edaaf020",
+   "semantic": 0.15,
+   "risk": 0.8,
+   "raw_ok": true
+  },
+  {
+   "score_id": "0b830978-957e-421d-ae8d-7b0e49fd8a21",
+   "semantic": 0.15,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "56f291b0-4f2a-4995-8718-ec1567c1b769",
+   "semantic": 0.15,
+   "risk": 0.6,
+   "raw_ok": true
+  },
+  {
+   "score_id": "9a7791ca-3286-4923-bf00-cde40b1125b8",
+   "semantic": 0.15,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "30524f05-fd65-41f8-a10f-af645bfb7b2c",
+   "semantic": 0.35,
+   "risk": 0.6,
+   "raw_ok": true
+  },
+  {
+   "score_id": "0f635dfd-e7fc-4e5e-aa4e-2a3477056c5b",
+   "semantic": 0.15,
+   "risk": 1.0,
+   "raw_ok": true
+  },
+  {
+   "score_id": "d564189a-71ea-47e1-ac73-e721df160b35",
+   "semantic": 0.25,
+   "risk": 0.6,
+   "raw_ok": true
+  },
+  {
+   "score_id": "85da59f2-18ef-406d-9ab7-99aafc00717b",
+   "semantic": 0.45,
+   "risk": 0.6,
+   "raw_ok": true
+  },
+  {
+   "score_id": "a747ad16-37e7-498c-b53d-94f9f8c290d7",
+   "semantic": 0.1,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "ad9d8112-7482-4a77-8b82-c177ac110003",
+   "semantic": 0.1,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "d821a1c5-350d-4299-8a4b-c0e177cf990d",
+   "semantic": 0.15,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "0f919713-28bb-4b69-a334-0439b9516985",
+   "semantic": 0.45,
+   "risk": 0.6,
+   "raw_ok": true
+  },
+  {
+   "score_id": "47b347f8-4dbd-49c8-aa96-d29abad26259",
+   "semantic": 0.1,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "d118665c-7e48-475d-a9c6-b1ed8632a94d",
+   "semantic": 0.1,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "643ab2c9-55b0-4d16-8df9-641763b5c74b",
+   "semantic": 0.45,
+   "risk": 0.6,
+   "raw_ok": true
+  },
+  {
+   "score_id": "0c38d7d1-cc3e-4ff5-8446-82f1b1ddb728",
+   "semantic": 0.78,
+   "risk": 0.3,
+   "raw_ok": true
+  },
+  {
+   "score_id": "7d335833-d560-4ab6-b548-d2344f7d1f7f",
+   "semantic": 0.25,
+   "risk": 0.6,
+   "raw_ok": true
+  },
+  {
+   "score_id": "33a480bd-6f41-4e0f-8a8a-e074cd152ee5",
+   "semantic": 0.15,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "eccf41ee-cc1e-4f57-bb75-be496798852d",
+   "semantic": 0.1,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "4927aa40-8ed7-4da9-ad70-781a52f7248f",
+   "semantic": 0.1,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "d83fc7d3-9971-4c85-a29f-ace8f939941a",
+   "semantic": 0.78,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "e227cb5c-492e-4e64-a816-7c84838f60a3",
+   "semantic": 0.78,
+   "risk": 0.3,
+   "raw_ok": true
+  },
+  {
+   "score_id": "3ec641cc-b5d0-4f73-a151-ccfb2b7b7d07",
+   "semantic": 0.85,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "020054fc-a8fe-4f6d-9058-48ea05c1e537",
+   "semantic": 0.78,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "14cfcecf-5443-4e15-a687-21d46a088f49",
+   "semantic": 0.78,
+   "risk": 1.0,
+   "raw_ok": true
+  },
+  {
+   "score_id": "88f26054-1782-4199-ac38-9d3bedc4a531",
+   "semantic": 0.15,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "a8338caa-3537-44e9-b9e5-bd06e1c444ab",
+   "semantic": 0.78,
+   "risk": 0.4,
+   "raw_ok": true
+  },
+  {
+   "score_id": "0940b1e2-f0a2-4e27-a400-c1ddd11fbe4b",
+   "semantic": 0.75,
+   "risk": 1.0,
+   "raw_ok": true
+  },
+  {
+   "score_id": "51b55bba-bc8d-4335-b12f-c39836c881ce",
+   "semantic": 0.78,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "f67d00f4-4484-43c5-a9fc-c99d785cfc68",
+   "semantic": 0.85,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "b814cf54-a827-4109-b588-4c2befb1acb5",
+   "semantic": 0.75,
+   "risk": 1.0,
+   "raw_ok": true
+  },
+  {
+   "score_id": "35fb8770-38dc-490a-ac2f-53d33c65b477",
+   "semantic": 0.85,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "894e9f27-fdd0-43e5-ad55-3b20a60b1f56",
+   "semantic": 0.78,
+   "risk": 0.3,
+   "raw_ok": true
+  },
+  {
+   "score_id": "52f17d9c-7299-4c33-923f-287e970778ff",
+   "semantic": 0.85,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "9e4b2942-309c-4a4f-bd35-620e3094836b",
+   "semantic": 0.45,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "1366a52d-2d03-418c-b4d1-0b1ca5383a30",
+   "semantic": 0.85,
+   "risk": 0.3,
+   "raw_ok": true
+  },
+  {
+   "score_id": "6c347ed3-6536-4162-abdd-8a66bbdd7567",
+   "semantic": 0.85,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "269d9896-9044-422f-bb40-1b4d1e386efc",
+   "semantic": 0.78,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "0ef04bcf-f954-4b8a-bdb7-0d3f83b95545",
+   "semantic": 0.85,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "a780fe6e-0776-427e-b03e-ad7411936f75",
+   "semantic": 0.15,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "5ab305a9-b117-4d00-824e-66133c2c26fe",
+   "semantic": 0.75,
+   "risk": 1.0,
+   "raw_ok": true
+  },
+  {
+   "score_id": "e081840c-a6bf-4cae-b33e-72f89a4ca683",
+   "semantic": 0.85,
+   "risk": 1.0,
+   "raw_ok": true
+  },
+  {
+   "score_id": "18109de5-d46d-4392-92ec-14e676da6ab0",
+   "semantic": 0.85,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "9f43f739-7efd-4f6d-9c5a-b1412d53911d",
+   "semantic": 0.75,
+   "risk": 0.4,
+   "raw_ok": true
+  },
+  {
+   "score_id": "46cbaf36-65c0-493f-abc4-275ead23aa0c",
+   "semantic": 0.85,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "5ec55263-b06d-416b-bef1-1e08bc1cf5da",
+   "semantic": 0.78,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "b83d7c77-9e4e-49e4-8cbb-66e9aa5a838e",
+   "semantic": 0.85,
+   "risk": 1.0,
+   "raw_ok": true
+  },
+  {
+   "score_id": "98975f62-aacc-4aac-b87d-f1a31ffe026d",
+   "semantic": 0.78,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "bc8b94c4-d4f5-4a39-96af-8c24051df3fe",
+   "semantic": 0.78,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "6847b9de-d230-4a34-ad2c-76c0a9b31937",
+   "semantic": 0.85,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "24710fba-dea7-4ff3-aa0a-6dbcf906e4d4",
+   "semantic": 0.85,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "56e35177-f63b-43a2-86c9-f3d7926f9a06",
+   "semantic": 0.78,
+   "risk": 1.0,
+   "raw_ok": true
+  },
+  {
+   "score_id": "24ca8001-8496-45c1-969c-59cacbc45737",
+   "semantic": 0.45,
+   "risk": 0.4,
+   "raw_ok": true
+  },
+  {
+   "score_id": "bceed1d4-4c6d-4ff3-815e-d57a92219b3f",
+   "semantic": 0.78,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "38c61fc5-7c9b-44c3-8a2a-e1b638d0e3b9",
+   "semantic": 0.85,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "5f674325-8b5f-4d73-ace4-3484ed203890",
+   "semantic": 0.92,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "f7ed6db0-c321-46a3-ab46-9be8449d744b",
+   "semantic": 0.15,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "c0f91f88-4037-463c-8cd2-07fb1fa76bf9",
+   "semantic": 0.85,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "92346c19-ce2f-416a-8dbf-973540e6d0de",
+   "semantic": 0.85,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "4efab75f-c215-433a-8c88-ac0432489ea9",
+   "semantic": 0.85,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "faa60a9e-e6ac-4ee9-959a-0e61d2e3abd5",
+   "semantic": 0.78,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "d581c620-710f-4d57-a1d4-4a58d4fe266c",
+   "semantic": 0.85,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "b570f428-57f3-4f39-89c1-ebfb876f11c9",
+   "semantic": 0.85,
+   "risk": 0.2,
+   "raw_ok": true
+  },
+  {
+   "score_id": "e6ffb5ed-2a3f-40eb-bd0b-680662e47112",
+   "semantic": 0.78,
+   "risk": 0.3,
+   "raw_ok": true
+  },
+  {
+   "score_id": "9cfdd7ce-7ea0-490f-a6d4-9ae524bb73c2",
+   "semantic": 0.85,
+   "risk": 0.3,
+   "raw_ok": true
+  },
+  {
+   "score_id": "ad6f9958-2e50-43d8-985f-a2ef947baf99",
+   "semantic": 0.85,
+   "risk": 0.1,
+   "raw_ok": true
+  },
+  {
+   "score_id": "17313ffa-11ac-439a-b032-408859bb2abf",
+   "semantic": 0.85,
+   "risk": 0.3,
+   "raw_ok": true
+  },
+  {
+   "score_id": "7f9c7016-2516-4c04-8a1d-11870654689b",
+   "semantic": 0.78,
+   "risk": 0.3,
+   "raw_ok": true
+  },
+  {
+   "score_id": "22de0551-b66f-468b-95a6-f2ec30fdde5c",
+   "semantic": 0.78,
+   "risk": 1.0,
+   "raw_ok": true
+  },
+  {
+   "score_id": "5305ce1a-3133-4585-8b1b-a56fdf52481e",
+   "semantic": 0.78,
+   "risk": 0.3,
+   "raw_ok": true
+  },
+  {
+   "score_id": "e07ee20a-cda1-4011-ba4c-36f710c4d77d",
+   "semantic": 0.85,
+   "risk": 1.0,
+   "raw_ok": true
+  },
+  {
+   "score_id": "26f4ba6f-f28a-4cb8-8553-fad0246338d7",
+   "semantic": 0.78,
+   "risk": 1.0,
+   "raw_ok": true
+  }
+ ]
+}

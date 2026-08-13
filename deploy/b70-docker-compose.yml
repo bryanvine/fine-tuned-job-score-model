@@ -1,0 +1,55 @@
+# Production serving of the distilled qwen3-8b-jobscore on an Intel Arc B70
+# (32GB, XPU) via intel/vllm:latest. Trimmed to the vLLM service; the merged
+# model directory is produced by scripts/merge_adapter.py.
+services:
+  vllm:
+    image: intel/vllm:latest
+    container_name: vllm-xpu
+    devices:
+      - /dev/dri:/dev/dri
+    # intel/vllm:latest's /etc/group has no "render" entry, and Docker
+    # resolves group_add names against the image's own /etc/group, so use
+    # the HOST's numeric gids that own the /dev/dri nodes (here render=992,
+    # video=44; check `getent group render video` on your host).
+    group_add:
+      - "992"
+      - "44"
+    security_opt:
+      - seccomp=unconfined
+    ipc: host
+    volumes:
+      - /nvme/staging:/nvme/staging:ro
+    ports:
+      - "${VLLM_PORT:-8000}:8000"
+    environment:
+      - VLLM_TARGET_DEVICE=xpu
+      - VLLM_WORKER_MULTIPROC_METHOD=spawn
+    # Dense bf16, no quantization, no speculative decoding. Scoring prompts
+    # are <=8k tokens (p99 6.4k); 12288 leaves headroom.
+    command:
+      - vllm
+      - serve
+      - /nvme/staging/ft-jobscore/qwen3-8b-jobscore
+      - --served-model-name
+      - qwen3-8b-jobscore
+      - --host
+      - "0.0.0.0"
+      - --port
+      - "8000"
+      - --kv-cache-dtype
+      - fp8
+      - --max-model-len
+      - "12288"
+      - --enforce-eager
+      - --gpu-memory-utilization
+      - "0.90"
+      - --max-num-seqs
+      - "12"
+      - --enable-prefix-caching
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 300s
+    restart: unless-stopped
